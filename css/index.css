@@ -1,0 +1,427 @@
+@font-face {
+  font-family:'stratos';
+  src:url("./fontes/stratos-bold.otf");
+}
+
+
+body {
+  background-color: rgb(0, 0, 0);
+  margin: 0 auto; /**Utilizado para centralizar a div**/
+  overflow-x: hidden; /**Retirar barra de rolagem inferior**/
+  
+}
+#todo {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  min-height: 2000px;
+}
+
+ p{
+
+  font-family: stratos;
+  font-weight: normal;
+  font-size: 22px;
+
+ }
+
+#logo {
+  width: 100%;
+  height: 45px;
+  position: absolute;
+  top: 0;
+}
+
+#logo-img {
+  height: auto;
+  width: 200px;
+  margin: 0 auto;
+  float: left;
+}
+#banner {
+  background-image: url("../img/stage_site.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 1300px;
+}
+
+#logo ul li a {
+  display: inline-block;
+  padding: 10px 20px;
+  color:  #FFD800;
+  text-decoration: none;
+  font-weight: bold;
+  width: 200px;
+  font-size: 24px;
+}
+
+#logo ul li {
+  display: inline-block;
+  padding: 10px 20px;
+  color:  #FFD800;
+  text-decoration: none;
+  font-weight: bold;
+  width: 200px;
+  font-size: 24px;
+}
+
+#logo nav {
+float: right;
+margin: 0 auto;
+width: auto;
+}
+
+/*## INICIO QUEM SOMOS ##*/
+.quem-somos-conteudo{
+  margin: 0 auto; 
+  width: 100%;
+ 
+}
+.quem-somos-conteudo img{
+  margin: 0 auto;
+ display: block;
+  width: 100%;
+  padding: 10px;
+}
+
+
+#quem-somos h1 {
+
+  color: #FFD800;
+}
+
+
+#quem-somos {
+
+  max-height: 8550px;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  line-height: 25px;
+  text-align: left;
+  font-size: 16px;
+  font-family: stratos;
+  color: #ffffff;
+}
+
+#quem-somos p{
+
+  min-height: 450px;
+  width: 100%;
+  min-width: 350px;
+  margin: 0 auto;
+  line-height: 45px;
+  text-align: justify;
+  font-size: 24px;
+  font-family: stratos;
+  margin-top: 20px;
+  color: #ffffff;
+
+}
+
+/*## FIM QUEM SOMOS ##*/
+
+
+/*## INICIO SOBRE O CURSO ##*/
+
+
+#sobre-curso  h1{
+  height: auto;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  line-height: 20px;
+  text-align: justify;
+  font-size: 36px;
+  font-family: stratos;
+  color: #FFD800;
+  font-weight: bold;
+}
+
+#sobre-curso p{
+
+  height: auto;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  line-height: 45px;
+  text-align: justify;
+  font-size: 28px;
+  font-family: stratos;
+  margin-top: 20px;
+  color: #ffffff;
+}
+#sobre-curso {
+  height: auto;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 20px;
+ 
+}
+.sobre-curso-texto{
+
+  margin-top: 20px;
+}
+.sobre-curso-texto  ul li{
+  height: auto;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  line-height: 45px;
+  text-align: justify;
+  font-size: 28px;
+  font-family: stratos;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+.sobre-curso-texto  h1{
+  height: auto;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  line-height: 20px;
+  text-align: justify;
+  font-size: 36px;
+  font-family: stratos;
+  color: #FFD800;
+  font-weight: bold;
+}
+
+/*## FIM SOBRE O CURSO ##*/
+
+
+/*## INICIO DEPOIMENTOS ##*/
+
+#container-depoimentos {
+  width: 100%;
+  min-height: 800px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+#container-depoimentos h1{
+  color: #FFD800;
+  text-align: left;
+}
+
+#metodologia {
+  height: auto;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  line-height: 20px;
+  text-align: justify;
+  font-size: 16px;
+  font-family: stratos;
+  color: #ffffff;
+}
+
+
+
+.depoimentos {
+  background-color: #ffffff; /*cor de fundo*/
+  border: 1px #000000 solid; /*espessura borda*/
+  border-radius: 7px;
+  width: 100%;
+  height: auto;
+  max-width: 450px;
+  float: left;
+  margin: 0 auto;
+  padding: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.depoimentos p {
+  line-height: 20px; /*Espaçamento entre as linhas do texto*/
+  text-align: justify;
+  font-size: 16px;
+  font-family: stratos;
+  color: #000000;
+}
+.depoimentos h2 {
+  color: #000000;
+  font-size: 18px;
+}
+.depoimentos h3 {
+  color: gray;
+  font-size: 16px;
+}
+/*## FIM DEPOIMENTOS ##*/
+
+/*## INICIO MAPA ENDERECO  ##*/
+
+.map-responsive {
+  width: 100%;
+  height: 450px;
+  max-width: 1000px;
+  margin: 0 auto;
+  
+}
+.mapa {
+  width: 100%;
+  height: 350px;
+  max-width: 600px;
+  margin: 0 auto;
+  float: right;
+}
+
+#informacoes {
+  text-align: justify;
+  background-color: yellow;
+  width: 380px;
+  height: 350px;
+  margin: 0 auto;
+  float: left;
+}
+
+#informacoes h2{
+  margin-top: 40px;
+  text-align: justifys;
+  font-weight: bold;
+  margin-left: 20px;
+  text-shadow: 1px 1px black;
+}
+
+#informacoes h3{
+  margin-top: 40px;
+  text-align: justify; /*Alinhamento do texto*/
+  font-weight: bold;
+  margin-left: 20px;
+  text-shadow: 1px 1px black; /*Sombreamento do Texto*/
+}
+/*## FIM MAPA ENDERECO  ##*/
+
+
+/**## INICIO FOOTER ##**/
+
+footer {
+  text-align: justify;
+  font-family: stratos; /*Tipo de fonte do texto*/
+  color: #ffffff;
+  text-align: center;
+  height: 20px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1000px;
+  margin-top: 10px;
+}
+
+footer ul {list-style: none;}
+footer ul li{display: inline;}
+footer ul li img{ width: 35px; height: 35px; margin-left: 10px;}
+
+
+
+/**## FIM FOOTER ##**/
+
+/**## INICIO RESPONSIVO ##**/
+
+
+
+
+/*Media Query é usado para ajustar o as tags de acordo com o tamanho
+da tela do dispositivo, impedindo que quebre o site*/
+@media (max-width: 680px) { /** Tudo que fica dentro da chave inicial
+  e final (as tags do css) irão funcionarsomente quando o dispositivo
+  com a resolução até 680 pixels**/
+    #banner  {
+
+      background-image: url("../img/site_menor.png")!important;
+      /**Esta propriedade é utilizada para inserir imagens como plano de fundo de um elemento**/
+      background-repeat: no-repeat;
+      /**Utilizamos esta propriedade para definir a maneira como a imagem será repetida no elemento. Podemos especificar que a imagem se repetirá em todos os eixos, apenas no horizontal, apenas no vertical ou não se repetirá.**/
+      background-size:100% 100% !important;
+      /**Utilizamos esta propriedade para especificar o tamanho da imagem de fundo**/
+      background-position: center;
+      /**Com esta propriedade podemos definir a posição na qual a imagem será inserida**/
+      overflow: hidden;
+      width: 100%;
+      height: 450px;
+      max-width: 680px;
+
+    }
+    #todo{
+      
+    }
+
+    #container-depoimentos {
+      width: 100%;
+      min-height: auto;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+
+.depoimentos {
+    background-color: #ffffff;
+    border: 1px #000000 solid;
+    border-radius: 7px;
+    width: 100%;
+    max-width: 680px;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+    #logo ul li a {
+      display: inline-block;
+      padding: 10px 20px;
+      color:  black;
+      text-decoration: none;
+      font-weight: bold;
+      width: 400px;
+      font-size: 14px;
+    }
+    
+  #logo ul li {
+
+    display: inline-block; 
+    color: black;
+    text-decoration: none;
+    font-weight: bold; /*Deixar a fonte em negrito*/
+    margin-right: 10px;
+    font-size: 18px; /*Tamanho da fonte*/
+    text-transform: uppercase;  /*Transformar a letra em maiscula*/
+    background: #F9CC00;
+    width: 100%;
+    border: 1px black solid;
+
+  }
+
+  #logo nav {
+    float: left;
+    margin: 0 auto;
+    width: 200px;
+    color: black;
+    
+  }
+
+  p{
+    font-size: 16px;
+  }
+
+  #informacoes {
+    text-align: left;
+    background-color: yellow;
+    width: 100%;
+    height: 350px;
+    margin: 0 auto;
+    float: left;
+  }
+
+  .mapa {
+    width: 100%;
+    height: 350px;
+    max-width: 100%;
+    margin: 0 auto;
+    float: right;
+  }
+}
+
+
+/**## FIM RESPONSIVO ##**/
